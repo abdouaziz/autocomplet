@@ -3,7 +3,18 @@
 
 ![autocompletion](https://github.com/abdouaziz/autocomplet/blob/master/image/image.JPG)
 
-An AI model that generates poems about El Hadji Malick Sy
+> In this projet we use an N-grams and language Models to build an autocomplete
+> The projet run with Flask and Angular 
+
+### N-Grams and Language Models
+- A language model is a tool that's calculates the probabilities of sentences.
+- Language models can estimate the probability of an upcoming word given a history of previous words.
+- apply language models to autocomplete a given sentence then it outputs a suggestions to complete the sentence
+- Applications:
+  - Speech recognition
+  - Spelling correction
+  - Augmentativce communication
+- N-gram is a sequence of words.
 
 ## Getting Started
 
@@ -11,12 +22,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Train the model for large epochs (eg 100) and save it as the name "my_model.h5"  in the folder
-
-install streamlit by typing this code below 
+ 
+install Flask by typing this code below 
 
 ```
-pip install streamlit
+ pip install Flask
+```
+
+install Angular by typing this code below 
+
+```
+npm i @angular/cli
 ```
 
 ## Running the tests
@@ -24,15 +40,22 @@ pip install streamlit
 To launch the project, place  in the folder and launch the command below
 
 ```
-streamlit run app.py
+$ set FLASK_APP = app.py
+$ flask run
 ```
+
+Place into app_Frontend and type
+
+```
+$ ng serve 
+```
+
 
 
 ## Files 
 
-* Gen_nextText.ipynb - Notebook for poems generation , training on google colab
-* Scraping.ipyng- Notebook for the scraping of asfiyahi's texts in order to constitute the corpus for training
-* app.py- the application running on streamlit
+* app_Frontend - the frontend is running on Angular
+* app.py- the application running on Flask
 
   
 
