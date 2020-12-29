@@ -1,7 +1,7 @@
 # Autocomplete and Language Models
 
 
-![autocompletion](./image/image.jpg)
+![autocompletion](https://github.com/abdouaziz/autocomplet/blob/master/image/image.JPG)
 
 An AI model that generates poems about El Hadji Malick Sy
 
